@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{ 
+    overflow-x : hidden; 
+}
+.corefeaturesection{
+    background-size: 100% 100%;
+}
+.featuresection2{
+    background-size: 200% 100%;
+}
+.ctasection{
+    background-size: 100% 100%;
+}
+.moveImage{
+    animation: 10s infinite linear moveCompany;
+}
+@keyframes moveCompany{
+    0%{
+        top: 0%;
+    }
+    100%{
+        top:-78%
+    }
+}
