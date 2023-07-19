@@ -5,12 +5,17 @@
 html,body{ 
     overflow-x : hidden; 
 }
-.corefeaturesection{
-    background-size: 100% 100%;
+@media (min-width:1024px) {
+    .corefeaturesection{
+        background-size: 100% 90%;
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
 }
+
 .featuresection2{
     background-size: 200% 100%;
-}
+}    
 .ctasection{
     background-size: 100% 100%;
 }
